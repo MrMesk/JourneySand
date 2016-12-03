@@ -16,6 +16,12 @@ Material:
     serializedVersion: 2
     m_TexEnvs:
     - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 2c0b561849d74614588b5b0091b672d1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
         name: _MainTex
       second:
         m_Texture: {fileID: 0}
@@ -25,13 +31,16 @@ Material:
         name: _NoiseTex
       second:
         m_Texture: {fileID: 2800000, guid: 946aa09cdaf3d184db1e9a8f364f3746, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 50, y: 50}
         m_Offset: {x: 0, y: 0}
-    m_Floats: []
+    m_Floats:
+    - first:
+        name: _Lum
+      second: 0.74
     m_Colors:
     - first:
         name: _Color
-      second: {r: 0.45588237, g: 0.40044597, b: 0.09050606, a: 1}
+      second: {r: 0.616, g: 0.40607822, b: 0.30627933, a: 1}
     - first:
         name: _NoiseColor
-      second: {r: 0.49822506, g: 0.5514706, b: 0, a: 1}
+      second: {r: 0.491, g: 0.32524842, b: 0.2439363, a: 1}
