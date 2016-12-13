@@ -35,8 +35,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - first:
+        name: _Dist
+      second: 8.5
+    - first:
         name: _Lum
       second: 0.74
+    - first:
+        name: _RaySize
+      second: 0.48
+    - first:
+        name: _raySmoother
+      second: 0.48
     m_Colors:
     - first:
         name: _Color
